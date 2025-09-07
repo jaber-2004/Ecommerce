@@ -1,0 +1,289 @@
+
+ /* Extra large devices */
+@media (min-width: 1200px) { 
+
+ }
+  /* Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+ }
+ /* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+ /* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+      .navbarPAdd p {
+    font-size: 11px;
+}
+.navbarPAdd a{
+    margin-top: 10px;
+}
+.navbar-nav {
+    padding: 0 34px;
+    text-align: center;
+    background-color: teal;
+    border-radius: 10px;
+    margin-top: 20px !important;
+}
+.navbarSearch {
+    margin-top: 20px;
+}
+.navbarIcons {
+    margin-top: 20px;
+}
+.bannarText {
+    text-align: center;
+    margin-top: -51px;
+    margin-bottom: -27px;
+}
+.bannarText li {
+    font-size: 14px;
+    padding: 14px 0;
+
+}
+.bannarRightText {
+    padding-top: 18px;
+}
+.bannarRightText h3 {
+    padding-top: 0px;
+    font-size: 23px;
+}
+.bannarRightText a {
+    display: inline-block;
+    padding-top: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FAFAFA;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+.bannarrightimg img {
+    max-width: 82%;
+}
+.broushLeftText h3 {
+    font-size: 24px;
+
+}
+.proudctLeftText h3 {
+    font-size: 24px;
+}
+.proudctrightBtn a {
+    padding: 8px 13px;
+    font-size: 11px;
+}
+.productsImg {
+    padding: 18px 64px;
+}
+.musicLeftTopText {
+    padding-top: 28px;
+    padding-bottom: 0px;
+}
+.musicLeftText h3 {
+    padding-top: 10px;
+    padding-bottom: 17px;
+    font-size: 31px;
+    line-height: 44px;
+}
+.musicTimehoursIteam {
+    margin-right: 14px;
+    padding: 6px 7px;
+}
+.musicLeftBtn a {
+    margin-top: 28px;
+    padding: 7px 12px;
+    font-size: 11px;
+}
+.musicRightImg {
+    margin-top: 21px;
+}
+.musicRightImg img {
+    max-width: 85%;
+}
+.ourProductsLeftText h3 {
+    font-size: 24px;
+}
+.ourProductsImg {
+    padding: 20px 84px;
+}
+.ourProductsBtn a {
+    margin-top: 28px;
+    padding: 8px 15px;
+    font-size: 11px;
+}
+#arrivalPart {
+    padding-bottom: 0px;
+}
+.arrivalToptwo{
+    padding-top: 20px;
+}
+.arrivalImgTextTwo {
+    left: 14px;
+    bottom: 19px;
+}
+.arrivalImgTextTwo p {
+    font-size: 14px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}
+.deliveryPart {
+    margin-top: 24px;
+}
+.footerIteamTwo {
+    padding: 40px 0;
+}
+.footerIteamThree{
+    padding-left: 0px;
+}
+.footerIteamThree p {
+    font-size: 12px;
+    padding-bottom: 7px;
+}
+.footerIteamFour {
+    margin: 40px 0;
+    padding-left: 0px;
+}
+.footerIteamFour p {
+    font-size: 12px;
+    padding-bottom: 7px;
+}
+ }
+
+  /* Extra small devices  */
+@media (max-width: 575.98px) { 
+   .navbarPAdd p {
+    font-size: 11px;
+}
+.navbarPAdd a{
+    margin-top: 10px;
+}
+.navbar-nav {
+    padding: 0 34px;
+    text-align: center;
+    background-color: teal;
+    border-radius: 10px;
+    margin-top: 20px !important;
+}
+.navbarSearch {
+    margin-top: 20px;
+}
+.navbarIcons {
+    margin-top: 20px;
+}
+.bannarText {
+    text-align: center;
+    margin-top: -51px;
+    margin-bottom: -27px;
+}
+.bannarText li {
+    font-size: 14px;
+    padding: 14px 0;
+
+}
+.bannarRightText {
+    padding-top: 18px;
+}
+.bannarRightText h3 {
+    padding-top: 0px;
+    font-size: 23px;
+}
+.bannarRightText a {
+    display: inline-block;
+    padding-top: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FAFAFA;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+.bannarrightimg img {
+    max-width: 82%;
+}
+.broushLeftText h3 {
+    font-size: 24px;
+
+}
+.proudctLeftText h3 {
+    font-size: 24px;
+}
+.proudctrightBtn a {
+    padding: 8px 13px;
+    font-size: 11px;
+}
+.productsImg {
+    padding: 18px 64px;
+}
+.musicLeftTopText {
+    padding-top: 28px;
+    padding-bottom: 0px;
+}
+.musicLeftText h3 {
+    padding-top: 10px;
+    padding-bottom: 17px;
+    font-size: 31px;
+    line-height: 44px;
+}
+.musicTimehoursIteam {
+    margin-right: 14px;
+    padding: 6px 7px;
+}
+.musicLeftBtn a {
+    margin-top: 28px;
+    padding: 7px 12px;
+    font-size: 11px;
+}
+.musicRightImg {
+    margin-top: 21px;
+}
+.musicRightImg img {
+    max-width: 85%;
+}
+.ourProductsLeftText h3 {
+    font-size: 24px;
+}
+.ourProductsImg {
+    padding: 20px 84px;
+}
+.ourProductsBtn a {
+    margin-top: 28px;
+    padding: 8px 15px;
+    font-size: 11px;
+}
+#arrivalPart {
+    padding-bottom: 0px;
+}
+.arrivalToptwo{
+    padding-top: 20px;
+}
+.arrivalImgTextTwo {
+    left: 14px;
+    bottom: 19px;
+}
+.arrivalImgTextTwo p {
+    font-size: 14px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+}
+.deliveryPart {
+    margin-top: 24px;
+}
+.footerIteamTwo {
+    padding: 40px 0;
+}
+.footerIteamThree{
+    padding-left: 0px;
+}
+.footerIteamThree p {
+    font-size: 12px;
+    padding-bottom: 7px;
+}
+.footerIteamFour {
+    margin: 40px 0;
+    padding-left: 0px;
+}
+.footerIteamFour p {
+    font-size: 12px;
+    padding-bottom: 7px;
+}
+}

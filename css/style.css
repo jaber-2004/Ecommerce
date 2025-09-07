@@ -1,0 +1,893 @@
+/* All common css start  */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,span,ul,li{
+    margin: 0%;
+    padding: 0%;
+    line-height: 0.8;
+}
+/* All common css end  */
+
+/* Headerpart start  */
+.navbarPAdd{
+ background-color: #000000;
+    padding: 12px 0;
+   
+}
+.navbar{
+    margin-top: -35px;
+ border-bottom: 2px solid #b3b3b3;
+ top: 45px;
+ left: 0px;
+}
+.navbarPAdd p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+     
+}
+.navbarPAdd a{
+     font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    text-decoration: underline !important;
+    padding-left: 10px;
+}
+.navbar-nav {
+      padding: 0 45px;
+}
+.nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    transition: .3s;
+}
+.nav-link:hover {
+    border-bottom: 1px solid #000000;
+}
+.navbarSearch p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+     font-family: "Poppins", sans-serif;
+     background-color: #F5F5F5;
+     padding: 7px 12px;
+}
+.navbarSearch a{
+    font-size: 16px;
+    color: #000000;
+    padding-left: 30px;
+}
+.navbarIcons a{
+    color: #000000;
+    padding-left: 20px;
+}
+/* Headerpart end  */
+
+/* Bannarpart start  */
+#bannarPart{
+    padding-top: 60px;
+    padding-bottom: 155px;
+}
+.bannarText {
+    margin-top: -15px;
+    border-right: 2px solid #b3b3b3;
+
+}
+.bannarText li{
+    
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    padding: 15px 0;
+    font-family: "Poppins", sans-serif;
+}
+.bannarRightText{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+}
+.logotextflex{
+    display: flex;
+}
+.logotextflex p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.bannarRightText h3{
+    padding-top: 30px;
+    font-size: 49px;
+    font-weight: 600;
+    color: #FAFAFA;
+    width: 294px;
+    line-height: 60px;
+    font-family: "Inter", sans-serif;
+}
+.bannarRightText a{
+    display: inline-block;
+    padding-top: 40px;
+     font-size: 16px;
+    font-weight: 400;
+    color: #FAFAFA;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+.bannarRightText a::after{
+    position: absolute;
+    height: 2px;
+    width: 80px;
+    background-color: #FAFAFA;
+    bottom: -5px;
+    left: 0px;
+    content: "";
+}
+.bannarrightimg{
+    padding-left: 45px;
+    padding-top: 20px;
+}
+/* Bannarpart end  */
+
+/* Broushpart start  */
+#broushPart{
+    padding-bottom: 120px;
+}
+.broushLeftText h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #DB4444;
+    font-family: "Poppins", sans-serif;
+    padding-left: 30px;
+    position: relative;
+    padding-top: 15px;
+}
+.broushLeftText h4::after{
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    background-color: #DB4444;
+    top: 0px;
+    left: 0px;
+    content: "";
+    border-radius: 5px;
+}
+.broushLeftText h3{
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+}
+.broushLeftText{
+    position: relative;
+}
+.broushicons {
+    position: absolute;
+     top: 75px;
+    right: 0px;
+}
+.broushicons a{
+    color: #000000;
+    padding-right: 20px;
+}
+.broushIteam{
+    margin-top: 70px;
+    padding: 25px 50px;
+    border: 1px solid rgba(0, 0, 0, 30%);
+    border-radius: 5px;
+     color: #000000;
+    transition: .3s;
+}
+.broushIteam:hover{
+    background-color: #DB4444;
+    color: #FAFAFA !important;
+}
+.broushText h4{
+    padding-top: 25px;
+     font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Broushpart end  */
+
+/* Productspart start  */
+#proudctPart{
+    padding-bottom: 120px;
+}
+.proudctLeftText{
+    position: relative;
+}
+.proudctLeftText h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #DB4444;
+    font-family: "Poppins", sans-serif;
+    padding-left: 30px;
+    position: relative;
+    padding-top: 15px;
+}
+.proudctLeftText h4::after{
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    background-color: #DB4444;
+    top: 0px;
+    left: 0px;
+    content: "";
+    border-radius: 5px;
+}
+.proudctLeftText h3{
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+}
+.proudctrightBtn a{
+    padding: 16px 48px;
+    background-color: #DB4444;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border: 1px solid #FFFFFF;
+    transition: .3s;
+}
+.proudctrightBtn a:hover{
+    color: #DB4444;
+    background: transparent;
+    border: 1px solid #DB4444;
+}
+.productsIteam{
+    padding-top: 60px;
+        position: relative;
+}
+.productsImg{
+    padding: 35px 40px;
+    background-color: #F5F5F5;
+}
+.productsImgIcon {
+    position: absolute;
+    top: 58px;
+    right: 20px;
+}
+.productsImgIcon a{
+    display: block;
+    color: #000000;
+    margin-top: 20px;
+    padding: 5px 8px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+}
+.productsText h4{
+    padding-top: 35px;
+     font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+}
+.productsText p{
+        padding-top: 20px;
+    padding-bottom: 15px;
+     font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #DB4444;
+}
+.productsText p span{
+         padding-left: 20px;
+      font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+     color: #000000;
+     position: relative;
+}
+.productsText p span::after {
+    position: absolute;
+    width: 42px;
+    height: 1px;
+    background-color: #000000;
+    top: 11px;
+    left: 19px;
+    content: "";
+}
+.productsImgTextFlex{
+    display: flex;
+}
+.productsImgTextFlex h5{
+     font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    padding-left: 15px;
+    padding-top: 6px;
+}
+/* Productspart end  */
+
+/* Musicpart start  */
+#musicPart{
+    padding-bottom: 160px;
+}
+.musicLeftTopText{
+    padding-top: 60px;
+    padding-bottom: 70px;
+    padding-left: 35px;
+}
+.musicLeftText{
+    color: #FAFAFA;
+}
+.musicLeftText h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #00FF66;
+     font-family: "Poppins", sans-serif;
+}
+.musicLeftText h3 {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 49px;
+    font-weight: 500;
+    color: #FAFAFA;
+    width: 442px;
+    line-height: 60px;
+    font-family: "Inter", sans-serif;
+}
+.musicTime{
+   padding: 20px;
+    background-color: #FAFAFA;
+    border-radius: 50px;
+    text-align: center;
+}
+.musicTime p{
+    color: #000000;
+    font-style: 11px;
+    font-weight: 400;
+    display: inline-block;
+    
+}
+.musicTimeHoursFlex{
+    display: flex;
+}
+.musicTimehoursIteam {
+    margin-right: 30px;
+    text-align: center;
+    padding: 15px 18px;
+    background-color: #FAFAFA;
+    border-radius: 50%;
+}
+.musicTimehoursIteam p span{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+}
+.musicTimehoursIteam p{
+    padding-top: 5px;
+    font-size: 11px;
+    font-weight: 400;
+     font-family: "Poppins", sans-serif;
+    color: #000000;
+}
+.musicLeftBtn a{
+    margin-top: 35px;
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #00FF66;
+     font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    border-radius: 5px;
+    border: 1px solid #00FF66;
+    transition: .4s;
+}
+.musicLeftBtn a:hover{
+    border: 1px solid #FFFFFF;
+    background: transparent;
+
+}
+.musicRightImg {
+    margin-top: 75px;
+
+}
+/* Musicpart end  */
+
+/* Ourproductspart start  */
+#ourProductsPart{
+    padding-bottom: 40px;
+}
+.ourProductsLeftText h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #DB4444;
+    font-family: "Poppins", sans-serif;
+    padding-left: 30px;
+    position: relative;
+    padding-top: 15px;
+}
+.ourProductsLeftText h4::after{
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    background-color: #DB4444;
+    top: 0px;
+    left: 0px;
+    content: "";
+    border-radius: 5px;
+}
+.ourProductsLeftText h3{
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+}
+.ourProductsLeftText{
+    position: relative;
+}
+.ourProductsicons {
+    position: absolute;
+    top: 75px;
+    right: 0px;
+}
+.ourProductsicons a{
+    color: #000000;
+    padding-right: 20px;
+}
+.ourProductsIteam{
+    padding-top: 60px;
+        position: relative;
+}
+.ourProductsImg{
+    padding: 35px 40px;
+    background-color: #F5F5F5;
+    position: relative;
+}
+.ourProductsImghoverText {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+.ourProductsImghoverText h4{
+    padding: 8px 0;
+    background-color: #000000;
+     font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.ourProductsImg:hover .ourProductsImghoverText h4 {
+    visibility: visible;
+    opacity: 1;
+}
+.ourProductsImgIcon {
+    position: absolute;
+    top: 58px;
+    right: 20px;
+}
+.ourProductsImgIcon a{
+    display: block;
+    color: #000000;
+    margin-top: 20px;
+    padding: 5px 8px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+}
+.ourProductsText h4{
+    padding-top: 35px;
+     font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+}
+
+.ourProductsImgTextFlex{
+    display: flex;
+    padding-top: 20px;
+}
+.ourProductsText p{
+     font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #DB4444;
+    padding-top: 6px;
+    padding-right: 15px;
+}
+.ourProductsImgTextFlex h5{
+     font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    padding-left: 15px;
+    padding-top: 6px;
+}
+.ourProductsBtn{
+    text-align: center;
+}
+.ourProductsBtn a{
+    margin-top: 65px;
+    display: inline-block;
+    padding: 16px 48px;
+    background-color: #DB4444;
+    font-size: 16px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     color: #FFFFFF;
+     border-radius: 5px;
+     transition: .3s;
+     border: 1px solid #FFFFFF;
+}
+.ourProductsBtn a:hover{
+    color: #DB4444;
+    background: transparent;
+    border: 1px solid #DB4444;
+}
+/* Ourproductspart end  */
+
+/* Arrivalpart start  */
+#arrivalPart{
+    padding-bottom: 185px;
+}
+.arrivalLeftText h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: #DB4444;
+    font-family: "Poppins", sans-serif;
+    padding-left: 30px;
+    position: relative;
+    padding-top: 15px;
+}
+.arrivalLeftText h4::after{
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    background-color: #DB4444;
+    top: 0px;
+    left: 0px;
+    content: "";
+    border-radius: 5px;
+}
+.arrivalLeftText h3{
+    padding-top: 30px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 70px;
+}
+.arrivalImgOne{
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #000000;
+      position: relative;
+}
+.arrivalImgTextOne{
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+.arrivalImgTextOne h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #FAFAFA;
+}
+.arrivalImgTextOne p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 242px;
+    font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.arrivalImgTextOne a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+.arrivalImgTwo{
+    padding-left: 138px;
+    background-color: #0D0D0D;
+    position: relative;
+}
+.arrivalImgTextTwo{
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+.arrivalImgTextTwo h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #FAFAFA;
+}
+.arrivalImgTextTwo p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 242px;
+    font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.arrivalImgTextTwo a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+.arrivalImgThree{
+    margin-top: 35px;
+    padding: 30px;
+    background-color: #1b1b1b;
+    position: relative;
+}
+.arrivalImgTextThree{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.arrivalImgTextThree h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #FAFAFA;
+}
+.arrivalImgTextThree p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.arrivalImgTextThree a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+.arrivalImgFour{
+     margin-top: 35px;
+    padding: 30px;
+    background-color: #1b1b1b;
+    position: relative;
+}
+.arrivalImgTextFour{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.arrivalImgTextFour h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #FAFAFA;
+}
+.arrivalImgTextFour p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.arrivalImgTextFour a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+/* Arrivalpart end  */
+
+/* Deliveryandservicpart start  */
+#deliveryAndServicPart{
+    padding-bottom: 165px;
+}
+.deliveryPart h4{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.deliveryPart p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+}
+/* Deliveryandservicpart end  */
+
+/* Footerpart start  */
+
+#footerPart{
+    padding-bottom: 25px;
+    background-color: #000000;
+    position: relative;
+}
+#footerPart::after {
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background-color: #FFFFFF;
+    bottom: 59px;
+    left: 0px;
+    content: "";
+}
+.footerTopBottom{
+      padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.footerIteamOne h3{
+    font-size: 24px;
+    font-weight: 700;
+     font-family: "Inter", sans-serif;
+    color: #FAFAFA;
+}
+.footerIteamOne h4{
+        font-size: 20px;
+    font-weight: 500;
+   font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding: 35px 0;
+}
+.footerIteamOne p{
+        font-size: 16px;
+    font-weight: 400;
+   font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding-bottom: 20px;
+}
+.textMsg input{
+    width: 100%;
+    background-color: #000000;
+    padding: 12px;
+    border: 1px solid #FAFAFA;
+    outline: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.textMsg::placeholder{
+      font-size: 16px;
+    font-weight: 400;
+   font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+}
+.textMsg{
+    position: relative;
+}
+.textMsg a {
+    display: inline-block;
+    color: #FAFAFA;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.footerIteamTwo h4{
+     font-size: 20px;
+    font-weight: 500;
+   font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding-bottom: 30px;
+}
+.footerIteamTwo p span{
+        font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+   font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+}
+.footerIteamTwo p{
+      font-size: 16px;
+    font-weight: 400;
+   font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding-bottom: 25px;
+}
+.footerIteamThree{
+    padding-left: 30px;
+}
+.footerIteamThree h4{
+     font-size: 20px;
+    font-weight: 500;
+   font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding-bottom: 30px;
+}
+.footerIteamThree p{
+      font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+   font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding-bottom: 25px;
+}
+.footerIteamFour{
+    padding-left: 30px;
+}
+.footerIteamFour h4{
+     font-size: 20px;
+    font-weight: 500;
+   font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding-bottom: 30px;
+}
+.footerIteamFour p{
+      font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+   font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding-bottom: 25px;
+}
+.footerIteamFive h4{
+     font-size: 20px;
+    font-weight: 500;
+   font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding-bottom: 30px;
+}
+.footerIteamFive p{
+      font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+   font-family: "Poppins", sans-serif;
+    color: #FAFAFA;
+    padding-bottom: 25px;
+}
+.footerIteamFiveIcon{
+    padding-top: 30px;
+}
+.footerIteamFiveIcon a{
+    display: inline-block;
+    color: #FAFAFA;
+    padding-right: 20px;
+}
+.footerpadd p{
+     font-size: 16px;
+    font-weight: 400;
+   font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+}
+
+/* Footerpart end  */
