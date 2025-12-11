@@ -188,6 +188,9 @@ li {
 .broushLeftText {
   position: relative;
 }
+.broushImg {
+  /* margin: 0% auto; */
+}
 .broushicons {
   position: absolute;
   top: 75px;
@@ -199,7 +202,8 @@ li {
 }
 .broushIteam {
   margin-top: 70px;
-  padding: 25px 50px;
+  padding: 20px 27px;
+  text-align: center;
   border: 1px solid rgba(0, 0, 0, 30%);
   border-radius: 5px;
   color: #000000;
@@ -891,6 +895,10 @@ li {
   color: #fafafa;
   padding-bottom: 25px;
 }
+.fffff {
+  margin-left: -50px;
+}
+
 .footerIteamFiveIcon {
   padding-top: 30px;
   display: flex;
